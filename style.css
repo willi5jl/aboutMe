@@ -1,0 +1,19 @@
+body{background-color: rgb(241, 76, 178);}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgb(252, 252, 252);}
+    img.resize {
+        max-width: 100%; height: auto;
+    }
+
+    h2{
+        font-family: Impact;
+        color: rgb(19, 56, 56)
+    }
+
+    ul{font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color:rgb(19, 56, 56);
+    }
+   /* this changes color of link when you hover */
+    a:hover {
+        color: rgb(233, 42, 122);
+      }
