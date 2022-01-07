@@ -1,19 +1,57 @@
-body{background-color: rgb(241, 76, 178);}
-h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgb(252, 252, 252);}
-    img.resize {
-        max-width: 100%; height: auto;
+.text {
+    font-size: 14px;
+}
+
+body {
+       
+    text-align: center;
+    background: linear-gradient(rgb(241, 179, 218), rgb(224, 85, 161), rgb(218, 31, 118));
+    }
+    li{
+        list-style-type: none;
+    }
+@media (max-width: 480px) {
+    .text {
+        font-size: 20px;
     }
 
-    h2{
+    img {
+        max-width: 100%;
+        height: auto;
+    } }
+
+    body {
+       
+    text-align: center;
+    background: linear-gradient(rgb(241, 179, 218), rgb(224, 85, 161), rgb(218, 31, 118));
+    }
+
+ 
+
+
+    h1 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(40, 137, 161);
+        font-size: 80px;
+    }
+
+    img.resize {
+        max-width: 100%;
+        height: auto;
+    }
+
+    h2 {
         font-family: Impact;
         color: rgb(19, 56, 56)
     }
 
-    ul{font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        color:rgb(19, 56, 56);
+    ul {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(19, 56, 56);
     }
-   /* this changes color of link when you hover */
+
+    /* this changes color of link when you hover */
     a:hover {
         color: rgb(233, 42, 122);
-      }
+    }
+}
